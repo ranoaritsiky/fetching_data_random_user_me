@@ -174,6 +174,7 @@ def load_results_into_identities_and_profiles():
 def main():
     setup_db()
     users = get_random_users()
+    print(users)
     load_users_into_api_results(users)
     load_results_into_identities_and_profiles()
 
